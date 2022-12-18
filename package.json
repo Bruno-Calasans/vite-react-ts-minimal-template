@@ -10,11 +10,14 @@
     "format": "prettier \"src/**/*.{js,jsx,ts,tsx,css,scss}\" --write",
     "compile": "tsc",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "vitest"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router": "^6.5.0",
+    "react-router-dom": "^6.5.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
@@ -34,6 +37,7 @@
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "typescript": "^4.8.2",
-    "vite": "^3.0.9"
+    "vite": "^3.0.9",
+    "vitest": "^0.25.8"
   }
 }
